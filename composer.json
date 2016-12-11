@@ -1,0 +1,31 @@
+{
+    "name": "jerryhsia/sensors-analytics-php",
+    "description": "神策数据分析PHP版SDK",
+    "homepage": "https://github.com/jerryhsia/sensors-analytics-php",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Hsia",
+            "email": "xiajie9916@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "jerryhsia\\sa\\": ""
+        }
+    },
+    "extra": {
+        "writable": [
+            "output"
+        ],
+        "executable": [
+            "run-test"
+        ]
+    }
+}
